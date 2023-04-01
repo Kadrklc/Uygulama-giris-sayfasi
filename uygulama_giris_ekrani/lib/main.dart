@@ -24,6 +24,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+// ekran deneme
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
@@ -42,7 +43,7 @@ class LoginPage extends StatelessWidget {
             SizedBox(height: 32),
             ElevatedButton.icon(
               onPressed: () {},
-              icon: Icon(Icons.login),
+              icon:  Icon(Icons.login),
               label: Text("Google ile Giriş Yap"),
             ),
             SizedBox(height: 16),
